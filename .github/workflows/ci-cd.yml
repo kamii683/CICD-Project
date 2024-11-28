@@ -30,7 +30,6 @@ jobs:
       uses: returntocorp/semgrep-action@v1
 
     - name: Run Gitleaks
-      uses: zricethezav/gitleaks-action@latest
+      uses: zricethezav/gitleaks-action@v2.6.0
       with:
         config-path: ".github/gitleaks.toml"
-
