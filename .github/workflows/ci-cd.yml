@@ -30,11 +30,10 @@ jobs:
       uses: returntocorp/semgrep-action@v1
       with:
         config: auto
-<<<<<<< HEAD
-=======
 
     - name: Run Gitleaks
       uses: zricethezav/gitleaks-action@v2.6.0
       with:
         config: false
->>>>>>> 70b31d4 (Finalized CI/CD pipeline with Semgrep and Gitleaks)
+
+        70b31d4 (Finalized CI/CD pipeline with Semgrep and Gitleaks)
