@@ -28,11 +28,7 @@ jobs:
 
     - name: Run Semgrep
       uses: returntocorp/semgrep-action@v1
-      with:
-        config: auto
 
     - name: Run Gitleaks
       uses: zricethezav/gitleaks-action@v1
-      with:
-        config: false
 
