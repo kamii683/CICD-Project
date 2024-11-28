@@ -35,5 +35,3 @@ jobs:
       uses: zricethezav/gitleaks-action@v2.6.0
       with:
         config: false
-
-        70b31d4 (Finalized CI/CD pipeline with Semgrep and Gitleaks)
