@@ -32,6 +32,7 @@ jobs:
         config: auto
 
     - name: Run Gitleaks
-      uses: zricethezav/gitleaks-action@v2.6.0
+      uses: zricethezav/gitleaks-action@v1
       with:
         config: false
+
