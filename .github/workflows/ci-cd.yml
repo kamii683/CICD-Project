@@ -31,5 +31,3 @@ jobs:
 
     - name: Run Gitleaks
       uses: zricethezav/gitleaks-action@v2
-      with:
-        config-path: ".github/gitleaks.toml"
